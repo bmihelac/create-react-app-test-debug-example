@@ -13,6 +13,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "test-debug": "CI=1 node debug node_modules/react-scripts/scripts/test.js --runInBand --env=jsdom src/App.test.js",
     "eject": "react-scripts eject"
   }
 }
